@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "request": "launch",
+      "name": "Run test-api",
+      "command": "npm run price-levels test-api"
+    },
+    {
+      "type": "node-terminal",
+      "request": "launch",
+      "name": "Run update-versions",
+      "command": "npm run price-levels update-versions \"https://docs.google.com/spreadsheets/d/1MuxeIgEYB2Pctuek3IBbBP_FGAiW8NtV2tzbdLkv-wU/edit?pli=1&gid=0#gid=0\""
+    }
+  ]
+}
